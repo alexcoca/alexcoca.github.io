@@ -65,10 +65,18 @@ import HorizontalCard from "../components/HorizontalCard.astro";
   <div>
     <div class="text-2xl font-bold mb-2">Featured Projects {"</>"}</div>
   </div>
-
+  <HorizontalCard
+  title="LLM Playground"
+  img="/playground.png"
+  desc="Contains a home-baked GPT-2 implementation, complete with batched inference, KV cached decoding and basic sampling methods and even a friendly and configurable trainer. Have a look!"
+  url="https://github.com/alexcoca/llm-playground"
+  badge="OPEN SOURCE"
+  imgClass="aspect-video object-cover object-[center_45%]"
+/>
+<div class="divider my-0"></div>
   <HorizontalCard
     title="ASPERA: A Simulated Environment to Evaluate Planning for Complex Action Execution"
-    img="/aspera.png"
+    img="/aspera_classy.png"
     desc="As part of my research internship with Apple's Siri Understanding team, I conducted an initial evaluation of large language models' ability to carry out complex tasks on behalf of users when given access to their digital context. The evaluation uses a simulated execution environment with functional outcome validation and data generation capabilities. Results on a benchmark of 250 complex tasks were presented at ACL 2025 in Vienna."
     url="https://github.com/apple/ml-aspera"
     badge="FEATURED"
